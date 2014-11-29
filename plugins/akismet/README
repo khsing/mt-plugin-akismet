@@ -1,0 +1,77 @@
+MT-Akismet
+
+MT-Akismet is a plugin that transparently integrates Movable
+Type's junk handling capabilities with the Akismet
+collaborative spam filtering service.
+
+For many people, Akismet will greatly reduce or even
+completely eliminate the comment and TrackBack spam you get
+on your sites. If one does happen to get through, simply
+mark it as "Junk" and Akismet will learn from the mistake.
+
+REQUIREMENTS
+
+MT-Akismet requires valid API key that is provided when you
+create a WordPress.com account. If you don't have a
+WordPress.com account yet, you can get one at
+http://wordpress.com.
+
+MT-Akismet requires Movable Type 3.2 or higher. It requires
+a few external modules from CPAN that have been packaged
+along with the plugin. These modules are Class::Accessor which
+is included and libwww-perl (LWP) library which ships with MT.
+
+INSTALLATION
+
+1 Download and unpack the latest MT-Akismet distribution
+file.
+
+2 Move the files into place.
+
+Where mt is Movable Type application directory, transfer the
+contents of the following distribution directories to
+
+  extlib     -> mt/extlib 
+  plugins    -> mt/plugins
+
+B<DO NOT> replace these directories in MT as they are likely
+to contain other files that your system and other plugins
+need.
+
+NOTICE: MT-Akismet will take advantage of background
+processing if it is enabled on your system and is highly
+recommended. For more on configuring your MT system to use
+background processing see Configuration Directives section
+of the manual
+
+SUPPORT
+
+No support is implied. Users experiencing issues installing
+this plugin are recommended to make a post in the Plugins
+forum of the MT Community forums found at
+http://forums.sixapart.com/index.php?showforum=20
+
+LICENSE
+
+This plugin is free software; you can redistribute it and/or
+modify it under the terms of either:
+
+a) the GNU General Public License as published by the Free
+Software Foundation; either version 1, or (at your option)
+any later version,
+
+or
+
+b) the "Artistic License" which comes with this module.
+
+This program is distributed in the hope that it will be
+useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE. See either the GNU General Public License or the
+Artistic License for more details.
+
+AUTHOR
+
+MT-Akismet has been developed by Timothy Appnel of Appnel
+Solutions for Automattic. Copyright 2005-2006, All rights
+reserved.
